@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Const00
+comment0.text=\ \n\ Pertemuan\ 03\:\ Construct\n
+comment1.params=
+comment1.target=Const00()
+comment2.params=radius
+comment2.target=double\ hitungLuas(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

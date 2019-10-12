@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=j
+comment0.target=void\ setJenis(java.lang.String)
+comment1.params=m
+comment1.target=void\ setMerek(java.lang.String)
+comment2.params=c
+comment2.target=void\ setCc(int)
+comment3.params=
+comment3.target=java.lang.String\ getJenis()
+comment4.params=
+comment4.target=java.lang.String\ getMerek()
+comment5.params=
+comment5.target=int\ getCc()
+numComments=6

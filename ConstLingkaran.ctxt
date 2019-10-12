@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ConstLingkaran
+comment0.text=\ \n\ Pertemuan\ 03\:\ Construct\n
+comment1.params=r\ w
+comment1.target=ConstLingkaran(double,\ java.lang.String)
+comment2.params=
+comment2.target=double\ hitungLuas()
+comment3.params=
+comment3.target=java.lang.String\ warna()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
