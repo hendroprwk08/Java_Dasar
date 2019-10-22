@@ -2,9 +2,9 @@ public class Mahasiswa{
     private String nama;
     private String npm;
 
-    public Mahasiswa(String n, String npm) {
+    public Mahasiswa(String n, String p) {
         this.nama = n;
-        this.npm = npm;
+        this.npm = p;
     }
     
     public String tampilkanNama() {

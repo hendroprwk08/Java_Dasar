@@ -12,5 +12,4 @@ public class MainKendaraan
         System.out.println("Jenis: " + k.getJenis());
         System.out.println("CC: " + k.getCc());
     }
-
 }
