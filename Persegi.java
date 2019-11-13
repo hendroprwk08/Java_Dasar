@@ -1,13 +1,20 @@
-public class PersegiPanjang{ 
+public class Persegi{ 
     private int panjang; 
-    private int lebar; 
+    private int lebar;
+    
+    Persegi(){}
  
+    Persegi(int p, int l){
+        this.panjang = p;
+        this.lebar = l;
+    }
+    
     public void setPanjang(int p){ 
-        panjang=p; 
+        this.panjang = p; 
     } 
     
     public void setLebar(int l){ 
-        lebar=l; 
+        this.lebar = l; 
     } 
     
     public int getPanjang(){ 

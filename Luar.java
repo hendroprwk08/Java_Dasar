@@ -2,7 +2,7 @@ class Luar {
     private int a; 
     
     public void setA(int nilai) {     
-        a = nilai;   
+        this.a = nilai;   
     } 
     
     public int getA() {     

@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.params=t
-comment0.target=void\ setTinggi(int)
-comment1.params=
-comment1.target=int\ getTinggi()
+comment0.target=Balok(int)
+comment1.params=t
+comment1.target=void\ setTinggi(int)
 comment2.params=
-comment2.target=int\ Volume()
-numComments=3
+comment2.target=int\ getTinggi()
+comment3.params=
+comment3.target=int\ Volume()
+numComments=4

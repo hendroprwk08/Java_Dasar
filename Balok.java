@@ -1,8 +1,12 @@
-public class Balok extends PersegiPanjang{ 
+public class Balok extends Persegi{ 
     private int tinggi; 
     
+    Balok(int t){
+        this.tinggi = t;
+    }
+    
     public void setTinggi(int t){ 
-        tinggi=t; 
+        this.tinggi = t; 
     } 
     
     public int getTinggi(){ 

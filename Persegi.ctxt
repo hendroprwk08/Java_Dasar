@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Persegi()
+comment1.params=p\ l
+comment1.target=Persegi(int,\ int)
+comment2.params=p
+comment2.target=void\ setPanjang(int)
+comment3.params=l
+comment3.target=void\ setLebar(int)
+comment4.params=
+comment4.target=int\ getPanjang()
+comment5.params=
+comment5.target=int\ getLebar()
+comment6.params=
+comment6.target=int\ Luas()
+numComments=7
