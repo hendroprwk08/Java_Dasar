@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Buah {
+public class ArrayBuah {
     public static void main(String[] args) {
 
         // membuat array buah-buahan
