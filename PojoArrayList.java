@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class PojoArrayList
 {
@@ -7,16 +8,36 @@ public class PojoArrayList
         int jumlah;
         String nama, nim;
         
-        Arraylist<
-        System.out.print("Nama: ");
-        nama = input.nextLine();
+        ArrayList<Mahasiswa> mhs = new ArrayList();
         
-        System.out.print("Nim: ");
-        nim = input.nextLine();
+        System.out.print("Jumlah data: ");
+        jumlah = input.nextInt();
         
-        Mahasiswa m = new Mahasiswa(nama, nim);
+        System.out.println("====================");
+        input.nextLine(); //skip error Scanner
+        for(int i = 0; i < jumlah; i++){
+            System.out.println("Data ke-"+ i);
+            System.out.print("Nama: ");
+            nama = input.nextLine();
+            
+            System.out.print("Nim: ");
+            nim = input.nextLine();
+            
+            //tambahkan kedalam arraylist
+            mhs.add( new Mahasiswa( nama, nim ) );
+            
+            System.out.println();
+        } 
         
-        System.out.println(m.tampilkanNama());
-        System.out.println(m.tampilkanNpm());
+        System.out.println("========================");
+        
+        for(int i = 0; i < jumlah; i++){
+            System.out.printf("| %-11s| %-8s|", 
+            mhs.get(i).tampilkanNama(),
+            mhs.get(i).tampilkanNpm() );
+            System.out.println( );
+        }
+        
+        System.out.println("========================");
     }
 }
